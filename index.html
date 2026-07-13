@@ -104,8 +104,15 @@
 
 <button>
 
-    سفارش
-onclick="alert('در حال ساخت')"
+    <a href="#" onclick="showMessage(); return false;">سفارش</a>
+
+<p id="msg" style="display:none;">در حال ساخت</p>
+
+<script>
+function showMessage() {
+    document.getElementById("msg").style.display = "block";
+}
+</script>
     
 
 </div>
