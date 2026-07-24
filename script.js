@@ -399,7 +399,15 @@ img.style.transform =
 console.log(
 "Urban Taste | Designed by You ❤️"
 );
-function rate(stars){
-    document.getElementById("result").innerText =
-    "امتیاز: " + stars + " از 5";
+
+}
+function rate(star, value) {
+    const stars = star.parentElement.querySelectorAll("span");
+
+    stars.forEach((s, i) => {
+        s.textContent = i < value ? "⭐" : "☆";
+    });
+
+    star.parentElement.nextElementSibling.textContent =
+        "امتیاز: " + value + " از 5";
 }
