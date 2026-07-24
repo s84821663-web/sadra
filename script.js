@@ -401,13 +401,3 @@ console.log(
 );
 
 }
-function rate(star, value) {
-    const stars = star.parentElement.querySelectorAll("span");
-
-    stars.forEach((s, i) => {
-        s.textContent = i < value ? "⭐" : "☆";
-    });
-
-    star.parentElement.nextElementSibling.textContent =
-        "امتیاز: " + value + " از 5";
-}
