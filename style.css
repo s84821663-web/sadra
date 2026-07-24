@@ -763,15 +763,3 @@ opacity:1;
 transform:translateY(0);
 
 }
-.rating span{
-    font-size:30px;
-    cursor:pointer;
-}
-
-.rating span:hover{
-    color:gold;
-}
-
-.result{
-    color:white;
-}
