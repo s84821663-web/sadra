@@ -417,3 +417,4 @@ function addToCart(name, price) {
 
     alert(name + " به سبد خرید اضافه شد.");
 }
+
