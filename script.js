@@ -399,22 +399,3 @@ img.style.transform =
 console.log(
 "Urban Taste | Designed by You ❤️"
 );
-// کدهای قبلی سایت
-...
-
-// کدهای دارک مود
-...
-
-// ===== سبد خرید =====
-
-let cart = [];
-
-function addToCart(name, price) {
-    cart.push({
-        name: name,
-        price: price
-    });
-
-    alert(name + " به سبد خرید اضافه شد.");
-}
-
