@@ -769,5 +769,9 @@ transform:translateY(0);
 }
 
 .rating span:hover{
-    transform: scale(1.2);
+    color:gold;
+}
+
+.result{
+    color:white;
 }
