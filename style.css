@@ -747,6 +747,14 @@ font-size:18px;
 ==============================*/
 
 .fade{
+        #welcome{
+    background:#ff9800;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    font-weight:bold;
+}
 
 opacity:0;
 
