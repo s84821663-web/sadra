@@ -400,4 +400,7 @@ console.log(
 "Urban Taste | Designed by You ❤️"
 );
 
-}
+
+setTimeout(function(){
+    document.getElementById("welcome").style.display="none";
+},3000);
