@@ -401,7 +401,3 @@ console.log(
 );
 
 
-setTimeout(function(){
-    document.getElementById("welcome").style.display="none";
-},3000);
-alert("جاوااسکریپت اجرا شد");
